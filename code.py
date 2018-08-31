@@ -5,7 +5,7 @@ chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@£$%^&*().,?01234
 length = input('password length?')
 length = int(length)
 
-print('Your passwords are:')
+print('Your password is:')
 password = ''
 for c in range(length):
     password += random.choice(chars)
